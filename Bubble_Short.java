@@ -1,9 +1,8 @@
 class Practice {
-
     public static void bubbleSort(int array[]){
        for(int i=0; i<=array.length-2; i++){                  //i shows turns 
         for(int j=0; j<=array.length-2-i; j++){
-            if(array[j] > array[j+1]){
+            if(array[j] > array[j+1]){                        //swaping...
                 int temp; 
                 temp = array[j];
                 array[j] = array[j+1];
@@ -12,7 +11,7 @@ class Practice {
         }
        }
     
-        for(int i=0; i<=array.length-1; i++){
+        for(int i=0; i<=array.length-1; i++){                 //print shorted array
             System.out.print(array[i]+ " ");
         }
     }
