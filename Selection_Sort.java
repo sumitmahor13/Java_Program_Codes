@@ -1,6 +1,6 @@
 class Practice {
 
-    public static void bubbleSort(int array[]){
+    public static void selectionSort(int array[]){
        for(int i=0; i<=array.length-2; i++){
         int minPosition = i;
         for(int j=i+1; j<=array.length-1; j++){
@@ -25,6 +25,6 @@ class Practice {
     public static void main(String args[]){
         int array[] = {5,2,1,3,4};
 
-        bubbleSort(array);
+        selectionSort(array);
     }
 }
