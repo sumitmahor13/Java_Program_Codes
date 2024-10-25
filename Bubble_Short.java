@@ -11,8 +11,8 @@ class Practice {
         }
        }
     
-        for(int i=0; i<=array.length-1; i++){                 //print shorted array
-            System.out.print(array[i]+ " ");
+        for(int p=0; p<=array.length-1; p++){                 //print shorted array
+            System.out.print(array[p]+ " ");
         }
     }
 
