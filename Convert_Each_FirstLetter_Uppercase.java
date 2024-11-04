@@ -1,6 +1,6 @@
 class Practice {
 
-    public static String shortestPath(String str){
+    public static String convertFirstLetter(String str){
         StringBuilder sb = new StringBuilder("");
 
         char ch = Character.toUpperCase(str.charAt(0));
@@ -19,6 +19,6 @@ class Practice {
     public static void main(String args[]){
         String str = "hi, iam sumit";
 
-        System.out.println(shortestPath(str));
+        System.out.println(convertFirstLetter(str));
     }
 }
