@@ -7,7 +7,7 @@ public static int tilingProblem(int n) {       //floor size (2 x n);
         //verticle choice
         int fnm1 = tilingProblem(n - 1);
         //horizontal choice
-        int fnm2 = tilingProblem(n - 2);
+        int fnm2 = tilingProblem(n - 2);                                        //Amazon 
 
         int totalWays = fnm1 + fnm2;
         return totalWays;
