@@ -8,7 +8,7 @@ public static void printBinString(int n, int prevPlace, String str) {
         //kaam
         if(prevPlace == 0){
           printBinString(n-1, 0, str+"0");
-          printBinString(n-1, 1, str+"1");
+          printBinString(n-1, 1, str+"1");                                        // Paytm
         }else{
           printBinString(n-1, 0, str+"0");
         }
